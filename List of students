@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our CRUD Mini System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #ccc 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        article {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About Our CRUD Mini System</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>Introduction</h2>
+            <p>Welcome to our mini CRUD system! CRUD stands for Create, Read, Update, and Delete—four fundamental operations for managing data in a web application. Our system is designed to provide a simple, user-friendly interface for performing these operations efficiently.</p>
+            
+            <h2>Purpose</h2>
+            <p>The primary goal of our CRUD mini system is to offer a straightforward way to manage data records. Whether you need to add new entries, view existing ones, modify details, or remove records, our system simplifies these tasks and helps you keep your data organized.</p>
+            
+            <h2>Features</h2>
+            <ul>
+                <li><strong>Create:</strong> Easily add new data entries to the system.</li>
+                <li><strong>Read:</strong> View and search for existing records.</li>
+                <li><strong>Update:</strong> Modify data entries as needed.</li>
+                <li><strong>Delete:</strong> Remove records that are no longer needed.</li>
+            </ul>
+            
+            <h2>Benefits</h2>
+            <p>Our CRUD system is designed with simplicity and usability in mind. It provides a clean interface, ensuring that users can perform necessary operations without complications. It's ideal for small-scale projects, learning purposes, and as a foundational tool for more complex systems.</p>
+            
+            <h2>Contact Us</h2>
+            <p>If you have any questions about our CRUD system or need support, please <a href="contact.html">contact us</a>.</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
